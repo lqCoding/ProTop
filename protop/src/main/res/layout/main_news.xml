@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+    <View
+        android:layout_gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#00BCD4"
+        />
+
+    <LinearLayout
+        android:id="@+id/ll_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00BCD4"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            app:contentInsetStart="0dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <ImageView
+                android:id="@+id/content_hamburger"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_menu" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ProTop"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:layout_marginRight="18dp"/>
+
+        </android.support.v7.widget.Toolbar>
+        <me.majiajie.pagerbottomtabstrip.PagerBottomTabLayout
+            android:id="@+id/tab"
+            app:elevation="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="false"/>
+        <RadioGroup
+            android:id="@+id/rg_color"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#ffff"
+            android:orientation="horizontal"
+            >
+            <RadioButton
+                android:id="@+id/rb_android"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:button="@null"
+                android:layout_weight="1"/>
+            <RadioButton
+                android:id="@+id/rb_ios"
+                android:layout_width="0dp"
+                android:button="@null"
+
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <RadioButton
+                android:id="@+id/rb_web"
+                android:layout_width="0dp"
+                android:button="@null"
+
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <RadioButton
+                android:id="@+id/rb_tools"
+                android:layout_width="0dp"
+                android:button="@null"
+
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+        </RadioGroup>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_allnews"
+            android:background="#ffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "com.example.tarena.protop"
+        minSdkVersion 17
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    //v7包含 recyclerAnimation
+    compile 'com.android.support:appcompat-v7:23.3.0'
+    compile 'com.android.support:design:23.3.0'
+    //旋转菜单
+    compile project(':library')
+    //底部菜单
+    compile 'me.majiajie:pager-bottom-tab-strip:1.0.0'
+    //okhttp
+    compile 'com.squareup.okhttp3:okhttp:3.2.0'
+    //butterKnife
+    compile 'com.jakewharton:butterknife:8.0.1'
+    //RecyclerView-Animation
+    compile 'jp.wasabeef:recyclerview-animators:2.2.3'
+    //BaseRecyclerViewAdapterHelper
+    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:v1.6.7'
+    compile project(':Loadlibrary')
+}

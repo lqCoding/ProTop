@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+    <View
+        android:layout_gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#2E8AB1"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00BCD4"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            app:contentInsetStart="0dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/iv_newinfo_back"
+                android:layout_height="30dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/back" />
+            <TextView
+                android:id="@+id/tv_news_info_title"
+                android:layout_width="0dp"
+                android:layout_weight="8"
+                android:layout_height="25dp"
+                android:text="文章标题"
+                android:textSize="20sp"
+
+                android:layout_marginRight="15dp"/>
+          <LinearLayout
+              android:layout_width="0dp"
+              android:layout_weight="1"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              >
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:id="@+id/iv_newinfo_fav"
+                android:layout_height="0dp"
+                android:layout_weight="6"
+                android:layout_width="25dp"
+                android:src="@drawable/fav"
+                android:clickable="true"
+               />
+              <TextView
+                  android:id="@+id/tv_newsinfo_fav"
+                  android:layout_width="match_parent"
+                  android:layout_height="0dp"
+                  android:layout_weight="4"
+                  android:textSize="8dp"
+
+                  android:text=""/>
+          </LinearLayout>
+</LinearLayout>
+        </android.support.v7.widget.Toolbar>
+
+
+        <WebView
+            android:id="@+id/wv_news_info"
+            android:background="#ffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+</FrameLayout>

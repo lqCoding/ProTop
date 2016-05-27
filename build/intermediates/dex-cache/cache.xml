@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Program Files\Android\Android Studio\gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.0.1\345b89f45d02d8b09400b472fab7b7e38f4ede1f\butterknife-annotations-8.0.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="345b89f45d02d8b09400b472fab7b7e38f4ede1f">
+        <dex dex="F:\ProTop\protop\build\intermediates\pre-dexed\debug\butterknife-annotations-8.0.1-43c2f089b580247dcd0d73e7fae76addaae3700b.jar" />
+    </item>
+    <item
+        jar="C:\Program Files\Android\Android Studio\gradle\caches\modules-2\files-2.1\org.jetbrains\annotations-java5\15.0\7011b4551a8451906759b05814c58b9eb829ea9b\annotations-java5-15.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="7011b4551a8451906759b05814c58b9eb829ea9b">
+        <dex dex="F:\ProTop\protop\build\intermediates\pre-dexed\debug\annotations-java5-15.0-2d5e68cb8e991f36664f5d36450de76e4d5360cf.jar" />
+    </item>
+    <item
+        jar="F:\ProTop\protop\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="82ce13fd19cdfde0e392f03c27edeba8d4333648">
+        <dex dex="F:\ProTop\protop\build\intermediates\pre-dexed\debug\classes-f0a906412ad28ef2e4ae6844e2d444ca81c17b89.jar" />
+    </item>
+    <item
+        jar="F:\ProTop\protop\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="F:\ProTop\protop\build\intermediates\pre-dexed\debug\classes-6d658cf4871aec5cb9820f1e9af6af140d124378.jar" />
+    </item>
+    <item
+        jar="F:\ProTop\protop\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="F:\ProTop\protop\build\intermediates\pre-dexed\debug\internal_impl-23.3.0-93ac193be6b129922ebcf70b64caf5caa914e63f.jar" />
+    </item>
+    <item
+        jar="F:\ProTop\protop\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="F:\ProTop\protop\build\intermediates\pre-dexed\debug\classes-6eed3833da1f8039d5e58d976836b415bf8e749f.jar" />
+    </item>
+    <item
+        jar="C:\Program Files\Android\Android Studio\gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="F:\ProTop\protop\build\intermediates\pre-dexed\debug\glide-3.7.0-62983bd9a42b44c07fbb24515433effeed3e6c59.jar" />
+    </item>
+    <item
+        jar="F:\ProTop\protop\build\intermediates\exploded-aar\ProTop\Loadlibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="b3f93c44d2009313af7cc338b68b77353b6b7e5f">
+        <dex dex="F:\ProTop\protop\build\intermediates\pre-dexed\debug\classes-fb9f82cb08bf62b3d362777e6e9a5d7312822c3d.jar" />
+    </item>
+    <item
+        jar="F:\ProTop\protop\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="F:\ProTop\protop\build\intermediates\pre-dexed\debug\classes-bb4da56f1d0964764776a02a0449f0179bf4f7dc.jar" />
+    </item>
+    <item
+        jar="C:\Program Files\Android\Android Studio\gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="F:\ProTop\protop\build\intermediates\pre-dexed\debug\okio-1.6.0-fa90b344c58a3590cc33d041f691a35645cca40d.jar" />
+    </item>
+    <item
+        jar="F:\ProTop\protop\build\intermediates\exploded-aar\com.android.support\design\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="F:\ProTop\protop\build\intermediates\pre-dexed\debug\classes-b195f0d9421c92f02a7832bd06ecc4b14f90abe5.jar" />
+    </item>
+    <item
+        jar="F:\ProTop\protop\build\intermediates\exploded-aar\me.majiajie\pager-bottom-tab-strip\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="cbd605407170445cf5aa765ce4cb4947df0d0d9c">
+        <dex dex="F:\ProTop\protop\build\intermediates\pre-dexed\debug\classes-175c1d9f607fa56ea212fc06ce23d15aebfacd5c.jar" />
+    </item>
+    <item
+        jar="E:\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="F:\ProTop\protop\build\intermediates\pre-dexed\debug\support-annotations-23.3.0-7c67d4cf9e2ce44b1fd26b1bcb3ab7dca3dd14b3.jar" />
+    </item>
+    <item
+        jar="F:\ProTop\protop\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="74ca46e7da11e3d065eb64cdbe6568a7ed74c211">
+        <dex dex="F:\ProTop\protop\build\intermediates\pre-dexed\debug\classes-873806a4501faa7d1ec401e8c64fc2b9cbbde1a8.jar" />
+    </item>
+    <item
+        jar="F:\ProTop\protop\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="F:\ProTop\protop\build\intermediates\pre-dexed\debug\classes-d598b5ff52b34700afeef20b453ca8ababfec6c5.jar" />
+    </item>
+    <item
+        jar="F:\ProTop\protop\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="F:\ProTop\protop\build\intermediates\pre-dexed\debug\classes-30f293ac2e178c53005674c437e39e9430617461.jar" />
+    </item>
+    <item
+        jar="F:\ProTop\protop\build\intermediates\exploded-aar\jp.wasabeef\recyclerview-animators\2.2.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8e325e9ba5c23d635d0cfaa76c349fca83101f8a">
+        <dex dex="F:\ProTop\protop\build\intermediates\pre-dexed\debug\classes-a359900df3d54cf7eeaa18179cdb60b11fdd25c8.jar" />
+    </item>
+    <item
+        jar="F:\ProTop\protop\build\intermediates\exploded-aar\com.github.CymChad\BaseRecyclerViewAdapterHelper\v1.6.7\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="1ac8e4dfc70228cbf634256cc55c0bcce01757b1">
+        <dex dex="F:\ProTop\protop\build\intermediates\pre-dexed\debug\classes-5711331638279b93de1d0b375b60149fcaa35ff3.jar" />
+    </item>
+    <item
+        jar="C:\Program Files\Android\Android Studio\gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.2.0\f7873a2ebde246a45c2a8d6f3247108b4c88a879\okhttp-3.2.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="F:\ProTop\protop\build\intermediates\pre-dexed\debug\okhttp-3.2.0-336f29a10344ba1e8dfa5339a334caed23a63bf4.jar" />
+    </item>
+    <item
+        jar="F:\ProTop\protop\build\intermediates\exploded-aar\ProTop\library\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="dbf89299f6aedc22af66c807afc3f3f67333d580">
+        <dex dex="F:\ProTop\protop\build\intermediates\pre-dexed\debug\classes-bd33e30ff45b06be3b22a2884d8077a3abd92cf5.jar" />
+    </item>
+
+</items>

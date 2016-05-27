@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+
+        app:contentInsetStart="0dp">
+
+        <ImageView
+            android:id="@+id/guillotine_hamburger"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:clickable="true"
+            android:src="@drawable/ic_menu_90" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="设置"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:layout_marginRight="30dp"/>
+    </android.support.v7.widget.Toolbar>
+<ScrollView
+    android:layout_width="match_parent"
+    android:scrollbars="none"
+    android:layout_height="match_parent">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+       <LinearLayout
+           android:id="@+id/ll_skin"
+           android:layout_width="match_parent"
+           android:orientation="horizontal"
+           android:visibility="gone"
+           android:padding="2dp"
+           android:background="#ffff"
+           android:layout_height="80dp">
+
+           <Button
+                   android:id="@+id/btn_skin"
+                   android:layout_width="0dp"
+                   android:layout_weight="1"
+
+                   android:layout_height="match_parent"
+                   android:text="天蓝色"
+                   android:background="#00BCD4"
+                   android:visibility="visible"/>
+
+
+           <Button
+               android:layout_marginLeft="3dp"
+               android:id="@+id/btn_skin2"
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:text="浅绿色"
+               android:background="#11cd6e"
+               android:visibility="visible"/>
+       </LinearLayout>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+       android:layout_gravity="center"
+        android:layout_marginRight="65dp"
+        android:src="@drawable/my"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:paddingLeft="25dp"
+        android:textSize="15dp"
+        android:text="已浏览的文章"
+        android:onClick="onClick_read"
+       />
+</FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="65dp"
+                android:src="@drawable/fav"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:paddingLeft="25dp"
+                android:textSize="15dp"
+                android:text="已收藏的文章"
+                android:onClick="onClick_fav"
+                />
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_height="80dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="65dp"
+                android:src="@drawable/clearcache"/>
+            <ImageView
+                android:id="@+id/clear_orientation"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="65dp"
+                android:src="@drawable/down"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:paddingLeft="15dp"
+                android:textSize="15dp"
+                android:text="清除缓存"
+                android:onClick="onClick_cache"
+                />
+        </FrameLayout>
+        <LinearLayout
+            android:id="@+id/ll_clear_cache"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:padding="2dp"
+            android:visibility="gone"
+            android:background="#ffffff"
+            android:layout_height="80dp">
+            <Button
+                android:id="@+id/btn_clear_db"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="清除列表缓存"
+                android:background="@drawable/cache_selector"
+                android:onClick="onClick_Clear_DB"
+               />
+            <Button
+                android:id="@+id/btn_clear_web"
+                android:layout_width="0dp"
+                android:layout_marginLeft="2dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="清除网页缓存"
+                android:onClick="onClick_Clear_WEB"
+                android:background="@drawable/cache_selector"
+                />
+
+        </LinearLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="65dp"
+                android:src="@drawable/rss"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:paddingLeft="15dp"
+                android:textSize="15dp"
+                android:text="我的博客"
+                android:onClick="onClick_MyBlog"
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="65dp"
+                android:src="@drawable/about"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:paddingLeft="15dp"
+                android:textSize="15dp"
+                android:text="关于软件"
+                android:onClick="onClick_about"
+                />
+        </FrameLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="@null"/>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

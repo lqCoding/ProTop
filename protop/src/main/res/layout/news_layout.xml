@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal"
+    >
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/iv_news_Category"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/android01"/>
+        <TextView
+            android:id="@+id/tv_cache"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="8sp"
+            android:text="未缓存"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:weightSum="1">
+       <TextView
+           android:id="@+id/tv_news_Title"
+           android:layout_width="match_parent"
+           android:layout_height="41dp"
+           android:layout_marginTop="5dp"
+           android:text="还在用ListView？还在用ListView？还在用还在用还在用还在用还用还在还在用还用还在在用"
+           android:textSize="17sp" />
+        <TextView
+            android:id="@+id/tv_news_whoAndtime"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="陈志明      2016-05-11"
+            android:textSize="10sp"/>
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

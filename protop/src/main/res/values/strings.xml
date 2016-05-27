@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ProTop</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_news_info">NewsInfoActivity</string>
+    <string name="title_activity_my_read">MyReadActivity</string>
+    <string name="title_activity_favo">FavoActivity</string>
+    <string name="title_activity_question">QuestionActivity</string>
+    <string name="title_activity_my_blog">MyBlogActivity</string>
+    <string name="title_activity_flash">ProTop</string>
+</resources>

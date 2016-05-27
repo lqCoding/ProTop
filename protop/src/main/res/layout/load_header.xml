@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_centerInParent="true"
+    android:layout_height="match_parent">
+    <ImageView
+    android:id="@+id/iv_load"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+        android:layout_marginTop="130dp"
+    android:src="@drawable/load"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00BCD4"
+        android:textSize="20sp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:layout_marginTop="-20dp"
+        android:layout_marginLeft="-10dp"
+        android:text="数据库中没有数据"/>
+
+    <TextView
+        android:id="@+id/tv_touch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00BCD4"
+        android:textSize="20sp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="正在更新数据中,请稍后....."/>
+
+</FrameLayout>
